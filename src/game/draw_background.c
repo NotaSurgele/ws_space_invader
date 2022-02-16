@@ -29,11 +29,6 @@ background_t **draw_background(background_t **background, window_t *window, delt
 */
 void destroy_background(background_t **background)
 {
-
-    for (int i = 0; background[i] != NULL; i++) {
-        sfSprite_destroy(background[i]->sprite);
-        sfTexture_destroy(background[i]->texture);
-        free(background[i]);
-    }
-    free(background);
+    /* to Complete
+    */
 }
